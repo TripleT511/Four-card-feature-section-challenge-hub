@@ -57,7 +57,7 @@
 .card__top .title__first {
     color: var(--second-color);
     font-weight: 200;
-    font-size: 34.5px;
+    font-size: 32.5px;
 }
 .card__top h1 {
     color: var(--primary-color);
@@ -69,6 +69,12 @@
     font-size: 14px;
     font-weight: 400;
     margin-top: 20px;
+}
+.card__top .title__des span {
+    display: block;
+}
+.card__top .title__des span span {
+    display: inline;
 }
 
 .card__body {
@@ -134,7 +140,7 @@ footer {
         padding: 25px;
     }
     .card__top .title__first {
-    font-size: 27px;
+    font-size: 26px;
     }
     .card__top h1 {
         font-size: 25px;
@@ -142,12 +148,10 @@ footer {
     .card__top .title__des {
         font-size: 16px;
     }
-    .title__des p {
+    .card__top .title__des span {
         display: inline;
     }
-    .title__des p span:nth-child(2) {
-        display: block;
-    }
+    
 }
 
 
